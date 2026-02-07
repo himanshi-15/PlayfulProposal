@@ -7,6 +7,8 @@ const yesBtn = document.getElementById("yesBtn");
 const result = document.getElementById("result");
 const celebration = document.getElementById("celebration");
 const closeCelebration = document.getElementById("closeCelebration");
+const loveNoteBtn = document.getElementById("loveNoteBtn");
+const loveNote = document.getElementById("loveNote");
 
 const messages = [
   "Nice try, but the universe says yes.",
@@ -64,4 +66,9 @@ closeCelebration.addEventListener("click", () => {
   celebration.classList.remove("show");
   celebration.setAttribute("aria-hidden", "true");
   card.style.display = "block";
+});
+
+loveNoteBtn.addEventListener("click", () => {
+  loveNote.textContent =
+    "You are my first thought when I wake up and my last thought before I sleep. My days begin with you and end with you, and everything in between feels lighter because you’re in it. You are my world, my calm, my happiest place. I love you more than words can hold, and I always want you by my side.";
 });
