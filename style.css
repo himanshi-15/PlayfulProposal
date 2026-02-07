@@ -235,6 +235,7 @@ h1 {
   animation: confetti-fall 2.2s linear infinite;
   opacity: 0.6;
   z-index: 1;
+  pointer-events: none;
 }
 
 @keyframes confetti-fall {
