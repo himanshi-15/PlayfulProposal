@@ -217,6 +217,13 @@ h1 {
   margin: 0 auto 16px;
 }
 
+.love-note {
+  margin: 10px 0 14px;
+  font-weight: 600;
+  color: var(--accent-dark);
+  min-height: 22px;
+}
+
 .confetti {
   position: absolute;
   inset: 0;
