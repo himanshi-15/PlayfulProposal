@@ -72,4 +72,3 @@ loveNoteBtn.addEventListener("click", () => {
   loveNote.textContent =
     "You are my first thought when I wake up and my last thought before I sleep. My days begin with you and end with you, and everything in between feels lighter because you’re in it. You are my world, my calm, my happiest place. I love you more than words can hold, and I always want you by my side.";
 });
-S
