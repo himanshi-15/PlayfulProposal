@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Valentine?</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section id="intro" class="intro">
+      <div class="intro-card">
+        <div class="intro-eyebrow">A Serious Message</div>
+        <h1 class="intro-title">Please Read Carefully</h1>
+        <p class="intro-text">
+          Some moments deserve a proper pause. This is one of them.
+        </p>
+        <button id="nextBtn" class="btn yes">Next</button>
+      </div>
+    </section>
+
+    <main id="mainCard" class="card hidden">
+      <div class="badge">For You</div>
+      <h1>Hey Love</h1>
+      <p class="subtitle">I have a tiny, important question...</p>
+      <div class="question">Will you be my Valentine?</div>
+
+      <div class="play-area" aria-hidden="true">
+        <div class="buttons">
+          <button id="yesBtn" class="btn yes">Yes, obviously</button>
+          <button id="noBtn" class="btn no">No</button>
+        </div>
+      </div>
+
+      <p id="result" class="result" aria-live="polite"></p>
+    </main>
+
+    <div id="celebration" class="celebration" aria-hidden="true">
+      <div class="celebration-card">
+        <div class="celebration-title">Yay! 🎉</div>
+        <p class="celebration-text">Best answer ever.</p>
+        <img
+          id="yayGif"
+          alt="Cute celebration gif"
+          src="https://media.giphy.com/media/l4FGpP4lxGGgK5CBW/giphy.gif"
+        />
+        <button id="closeCelebration" class="btn yes">Close</button>
+      </div>
+      <div class="confetti" aria-hidden="true"></div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
